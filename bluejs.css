@@ -1,0 +1,49 @@
+body {
+    background-color: #163a6b;
+
+}
+
+#layoutbox {
+    text-align:center;
+    margin:auto;
+    width: fit-content;
+    display: flex;
+}
+
+button.key {
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #b3b7b1;
+    font-size: 15px;
+    text-align: center;
+    background-color: #163a6b;
+    background-image: url(out.png);
+    background-size: 100%;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 75px;
+}
+
+@media screen and (min-width: 800px) {
+    button.key {
+        width: 100px;
+        height: 100px;
+        font-size: 20px;
+    }
+}
+
+button.key.br {
+    clear: both;
+}
+
+button.key:active {
+    background-image: url(in.png);
+    padding-right: 2px;
+    padding-top: 4px;
+}
