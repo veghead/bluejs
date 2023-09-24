@@ -22,7 +22,7 @@ button.key {
     font-size: 15px;
     text-align: center;
     background-color: #163a6b;
-    background-image: url(out.png);
+    background-image: url(images/out.png);
     background-size: 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ button.key.br {
 }
 
 button.key:active {
-    background-image: url(in.png);
+    background-image: url(images/in.png);
     padding-right: 2px;
     padding-top: 4px;
 }
