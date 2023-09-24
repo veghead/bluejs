@@ -3,6 +3,9 @@ A simple HTML 5 Blue Box for CCITT Signalling System 5 (C5)- or whatever you wan
 
 Proudly using the [vanilla.js framework](http://vanilla-js.com/)
 
+
+![screenshot](images/screenshot.png)
+
 ```
 SPDX-License-Identifier: GPL-3.0-only
 (c) Veghead 2023
